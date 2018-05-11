@@ -1,0 +1,10 @@
+set_source_files_properties(
+initlist.cpp
+initlistctor.cpp
+initlistovl.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(initlist initlist.cpp)
+add_executable(initlistctor initlistctor.cpp)
+add_executable(initlistovl initlistovl.cpp)

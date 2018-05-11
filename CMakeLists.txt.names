@@ -1,0 +1,6 @@
+set_source_files_properties(
+anglebrackethack.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(anglebrackethack anglebrackethack.cpp)

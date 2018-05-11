@@ -1,0 +1,10 @@
+set_source_files_properties(
+isconstructible.cpp
+traits1.cpp
+traits2.cpp   
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(isconstructible isconstructible.cpp)
+add_executable(traits1 traits1.cpp)
+add_executable(traits2 traits2.cpp)

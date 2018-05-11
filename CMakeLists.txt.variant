@@ -1,0 +1,16 @@
+set_source_files_properties(
+printrec.cpp
+variant.cpp
+variantdefaultctor.cpp
+variantexception.cpp
+variantpromote.cpp
+visit.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(printrec printrec.cpp)
+add_executable(variant variant.cpp)
+add_executable(variantdefaultctor variantdefaultctor.cpp)
+add_executable(variantexception variantexception.cpp)
+add_executable(variantpromote variantpromote.cpp)
+add_executable(visit visit.cpp)

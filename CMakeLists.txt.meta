@@ -1,0 +1,8 @@
+set_source_files_properties(
+sqrt1.cpp
+unruh.cpp    
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(sqrt1 sqrt1.cpp)
+add_executable(unruh unruh.cpp)

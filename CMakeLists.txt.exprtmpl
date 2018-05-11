@@ -1,0 +1,7 @@
+set_source_files_properties(
+sarray1.cpp
+sarray2.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+add_executable(sarray1 sarray1.cpp)
+add_executable(sarray2 sarray2.cpp)

@@ -1,0 +1,6 @@
+set_source_files_properties(
+min.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(min min.cpp)

@@ -1,0 +1,6 @@
+set_source_files_properties(
+tracertest.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(tracertest tracertest.cpp)

@@ -1,0 +1,10 @@
+set_source_files_properties(
+dynapoly.cpp
+printmax.cpp
+staticpoly.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(dynapoly dynapoly.cpp)
+add_executable(printmax printmax.cpp)
+add_executable(staticpoly staticpoly.cpp)

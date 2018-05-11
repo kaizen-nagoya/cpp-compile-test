@@ -1,0 +1,8 @@
+set_source_files_properties(
+forupto1.cpp
+forupto4.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(forupto1 forupto1.cpp)
+add_executable(forupto4 forupto4.cpp)

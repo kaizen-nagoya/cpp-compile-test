@@ -1,0 +1,32 @@
+set_source_files_properties(
+accum1.cpp
+accum6.cpp
+decay.cpp
+elementtype.cpp
+hasmember.cpp
+hastype.cpp
+isfundatest.cpp
+issame.cpp
+isvalid1.cpp
+isvalid2.cpp
+passbyvalue.cpp
+rparam1.cpp
+rparam2.cpp
+sizeof.cpp    
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(accum1 accum1.cpp)
+add_executable(accum6 accum6.cpp)
+add_executable(decay decay.cpp)
+add_executable(elementtype elementtype.cpp)
+add_executable(hasmember hasmember.cpp)
+add_executable(hastype hastype.cpp)
+add_executable(isfundatest isfundatest.cpp)
+add_executable(issame issame.cpp)
+add_executable(isvalid1 isvalid1.cpp)
+add_executable(isvalid2 isvalid2.cpp)
+add_executable(passbyvalue passbyvalue.cpp)
+add_executable(rparam1 rparam1.cpp)
+add_executable(rparam2 rparam2.cpp)
+add_executable(sizeof sizeof.cpp)

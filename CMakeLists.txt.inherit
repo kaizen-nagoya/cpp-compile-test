@@ -1,0 +1,20 @@
+set_source_files_properties(
+countertest.cpp
+ebco1.cpp
+ebco2.cpp
+empty.cpp
+equalitycomparable.cpp
+projectioniterator.cpp
+virtual.cpp
+wrapper.cpp    
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(countertest countertest.cpp)
+add_executable(ebco1 ebco1.cpp)
+add_executable(ebco2 ebco2.cpp)
+add_executable(empty empty.cpp)
+add_executable(equalitycomparable equalitycomparable.cpp)
+add_executable(projectioniterator projectioniterator.cpp)
+add_executable(virtual virtual.cpp)
+add_executable(wrapper wrapper.cpp)

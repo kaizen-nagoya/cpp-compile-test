@@ -1,0 +1,8 @@
+set_source_files_properties(
+compressedtuple1.cpp
+indexsort.cpp    
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(compressedtuple1 compressedtuple1.cpp)
+add_executable(indexsort indexsort.cpp)

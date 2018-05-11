@@ -1,0 +1,30 @@
+set_source_files_properties(
+adl.cpp
+fppm.cpp
+funcoverload1.cpp
+funcoverload2.cpp
+implicit.cpp
+inject.cpp
+lazy2.cpp
+max.cpp
+nontmpl1.cpp
+nontmpl2.cpp
+tmplconstr.cpp
+tupleoverload.cpp
+variadicoverload.cpp
+    PROPERTIES COMPILE_FLAGS -std=c++2a 
+)
+
+add_executable(adl adl.cpp)
+add_executable(fppm fppm.cpp)
+add_executable(funcoverload1 funcoverload1.cpp)
+add_executable(funcoverload2 funcoverload2.cpp)
+add_executable(implicit implicit.cpp)
+add_executable(inject inject.cpp)
+add_executable(lazy2 lazy2.cpp)
+add_executable(max max.cpp)
+add_executable(nontmpl1 nontmpl1.cpp)
+add_executable(nontmpl2 nontmpl2.cpp)
+add_executable(tmplconstr tmplconstr.cpp)
+add_executable(tupleoverload tupleoverload.cpp)
+add_executable(variadicoverload variadicoverload.cpp)
