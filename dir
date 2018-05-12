@@ -3,7 +3,7 @@ bridge
 debugging
 deduce
 details
-expertmpl
+exprtmpl
 inherit
 meta
 names
@@ -14,4 +14,3 @@ tuples
 typeoverload
 utils
 variant
-
