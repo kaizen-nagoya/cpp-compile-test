@@ -1,9 +1,9 @@
 set_source_files_properties(
 aliastemplate.cpp
-initlist2.cpp
+initlist.cpp
 resulttypetmpl.cpp
     PROPERTIES COMPILE_FLAGS -std=c++2a 
 )
 add_executable(aliastemplate aliastemplate.cpp)
-add_executable(initlist2 initlist2.cpp)
+add_executable(initlist initlist.cpp)
 add_executable(resulttypetmpl resulttypetmpl.cpp)
