@@ -14,7 +14,7 @@ max4.cpp
 message.cpp
 move1.cpp
 move2.cpp
-myfirst.cpp myfirstmain.cpp
+myfirstmain.cpp
 referror1.cpp
 referror2.cpp
 specialmemtmpl1.cpp
@@ -44,7 +44,7 @@ add_executable(max4 max4.cpp)
 add_executable(message message.cpp)
 add_executable(move1 move1.cpp)
 add_executable(move2 move2.cpp)
-add_executable(myfirst myfirst.cpp myfirstmain.cpp)
+add_executable(myfirstmain myfirstmain.cpp)
 add_executable(referror1 referror1.cpp)
 add_executable(referror2 referror2.cpp)
 add_executable(specialmemtmpl1 specialmemtmpl1.cpp)
