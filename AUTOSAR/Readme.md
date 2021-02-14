@@ -9,12 +9,12 @@ https://www.autosar.org/fileadmin/user_upload/standards/adaptive/17-03/AUTOSAR_R
 $ docker run -it kaizenjapan/autosar11 /bin/bash
 ```
 
-#目的(purpose)
+# 目的(purpose)
 AutosarのC++ GuidelineをOS, 制御のプログラムで利用するにあたって、以下を検討する。
 (1)hosted, freestandingのどちらを基本にすべきか。(2)C++2014,C++2017, C++202aのどれを用いると良いか。
 (3)どの処理系を併用すると良いか。
 -std=c++14, -std=c++17, -std=c++2aの3種類で、複数のコンパイラでコンパイルすることにより、誤(error)、警告(warning)、関数・変数連携(link)、出力(output)、にどのような影響があるかを確認する。
-#成果(outcome)
+# 成果(outcome)
 複数の処理系の特徴が明確になる。
 各標準段階の違いを明確にする。
 hostedまたはfreestandingの特徴と課題を明確にする。
@@ -40,7 +40,7 @@ Copyright (C) 2018 Free Software Foundation, Inc.
 | 4 | 実行結果検討中 |
 | 5 | 実行結果十分 |
 
-#分類(category)
+# 分類(category)
 
 |項目名|内容|
 |:--|:--|
@@ -48,7 +48,7 @@ Copyright (C) 2018 Free Software Foundation, Inc.
 | c/g | clang++,g++の違い |
 | f/h | freestanding/hosted対応 |
 
-##freestanding
+## freestanding
 C++N4606 Table 17 — C++ headers for freestanding implementations
 
 |Subclause No.| Subclause Title| Header(s)|
@@ -66,7 +66,7 @@ C++N4606 Table 17 — C++ headers for freestanding implementations
 |20.15| Type traits| \<type_traits\>|
 |29| Atomics |\<atomic\>|
 
-#一覧(list)
+# 一覧(list)
 |  |  |  |  | Clang++ |  |  | g++ |  |  |  |  |  |  |  |
 |:--|:--|:--|:--|--:|--:|:--|--:|--:|:--|:--|:--|:--|:--|:--|
 | No. | Rule No. | Title | URL | 2014 | 2017 | 202a | 2014 | 2017 | 202a | 年 | c/g | f/h | ソースの状態 | 規則への意見 |
@@ -242,7 +242,7 @@ C++N4606 Table 17 — C++ headers for freestanding implementations
 |  |  |  |  | Clang++ |  |  | g++ |  |  |  |  |  |  |  |
 | No. | Rule No. | Title | URL | 2014 | 2017 | 202a | 2014 | 2017 | 202a | 年 | c/g | f/h | ソースの状態 | 規則への意見 |
 
-##Header file
+## Header file
 
 ```c++:autosar.h
 #ifndef AUTOSAR_H
@@ -331,10 +331,10 @@ rm $1g2a
 fi
 ```
 
+ 
+# 参考文献(reference)
 
-#参考文献(reference)
-
-###プログラミング言語教育のXYZ
+### プログラミング言語教育のXYZ
 https://qiita.com/kaizen_nagoya/items/1950c5810fb5c0b07be4
 プログラミング言語教育のXYZ(youtube)
 https://www.youtube.com/watch?v=He1_tg4px-w&t=486s
@@ -346,7 +346,7 @@ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/n4741.pdf
 C++N4741, 2018 Standard Working Draft on ISO/IEC 14882 sample code compile list
 https://qiita.com/kaizen_nagoya/items/3294c014044550896010
 
-###C++N4606 2016
+### C++N4606 2016
 Working Draft, Standard for Programming Language C++
 http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4606.pdf
 
@@ -394,7 +394,7 @@ https://qiita.com/kaizen_nagoya/items/d363cf06e2176207b391
 AUTOSAR document @ R20-11
 https://qiita.com/kaizen_nagoya/items/22a19ac8e7edb6ab8084
 
-#文書履歴(document history)
+# 文書履歴(document history)
 ver 0.10 初稿 20180613
 ver 0.20 全件記録 20180614
 ver 0.21 表の項目統一 20180615
